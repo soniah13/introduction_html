@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to contact us</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="/home.html">Home</a>
+        </li>
+        <li>
+          <a href="/">Contact</a>
+        </li>
+        <li>
+          <a href="/menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="#about_section">About Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="contact-section">
+      <h2>Contact us</h2>
+      <form action="https://zinduaschool.com/" method="post">
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username" required maxlength="10"> 
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- radio button -->
+        <p> Choose your gender</p>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">female</label>
+
+        <input type="radio" name="gender" value="other" id="other">
+        <label for="other">other</label>
+
+        <!-- Checkbox -->
+        <p>Choose level of education completed</p>
+      
+        <input type="checkbox" name="primary school" id="primary-school" value="primary-school">
+        <label for="primary school">primary school</label>
+        <input type="checkbox" name="high school" id="high-school" value="high-school">
+        <label for="high school">high school</label>
+        <input type="checkbox" name="certificate" id="certificate" value="certificate">
+        <label for="certificate">certificate</label>
+        <input type="checkbox" name="diploma" id="diploma" value="diploma">
+        <label for="diploma">diploma</label>
+        <input type="checkbox" name="degree" id="degree" value="degree">
+        <label for="degree">degree</label>
+        <input type="checkbox" name="masters" id="masters" value="masters">
+        <label for="masters">masters</label>
+        <input type="checkbox" name="PHD" id="PHD" value="PHD">
+        <label for="PHD">PHD</label>
+
+        <!-- select dropdown -->
+        <p>Choose your career</p>
+        <select name="career" id="career">
+          <option value="doctor"> Doctor </option>
+          <option value="engineer"> Engineer </option>
+          <option value="nurse"> Nurse </option>
+          <option value="pilot"> Pilot </option>
+          <option value="entreprenuer"> Entreprenuer </option>
+          <option value="teacher"> Teacher </option>
+          <option value="farmer"> Farmer </option>
+        </select>
+        <br>
+        <label for="description">Describe yourself</label>
+        <textarea name="description" id="description">Tell us about yourself</textarea>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+<p>reach us via <a href='mailto:imorgansonia@gmail.com'>imorgansonia@gmail.com</a> or <a href='tel:0758721337'>0758721337</a></p>
+</p>
+    </section>
+  </main>
+</body>
+
+</html>

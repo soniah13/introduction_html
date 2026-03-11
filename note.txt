@@ -1,0 +1,11 @@
+html - is the root of the document 
+head -  holds the metadata
+computer reads text as zero and ones, this is binary. browser needs to decode text 
+
+Types of lists
+- ordered
+- unordered
+- descriptive lists
+
+section - a group of related content
+article  - independent content
