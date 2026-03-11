@@ -9,3 +9,8 @@ Types of lists
 
 section - a group of related content
 article  - independent content
+
+commit messages need to be descriptive and in present perfect tense
+they need to answer the question: what will this commit do?
+commits need to be done as frequent as possible. 
+commit changes as being made
