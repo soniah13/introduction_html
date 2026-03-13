@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-class{
+    padding:20px 10px 5px 2px;
+    border-radius: 10%;
+    border: solid black;
+    width: 400px;
+}
+span{
+    color:chartreuse
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid black;
+    background-color: beige;
+    align-items: center;  
+}
+#logo img{
+    border-radius: 50%;
+    margin: 5px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
